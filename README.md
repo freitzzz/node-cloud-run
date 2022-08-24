@@ -1,6 +1,7 @@
 # node_cloud_run
 
 Sample code to deploy a node.js app using npm in GCP Cloud Run
+
 ## Setup
 
 The script was built using Node `v14.20.0`. To run locally you need to have `npm` installed and then run the following commands:
@@ -12,6 +13,7 @@ npm start
 ```
 
 These commands will first install any missing dependencies that are not present in the `node_modules` folder and then run the script. Also, make sure to copy the `.env.tpl` file to `.env` and update the environment variables with appropriate values.
+
 ---
 
 Run the service locally using **Docker**, using the available `Dockerfile`.
